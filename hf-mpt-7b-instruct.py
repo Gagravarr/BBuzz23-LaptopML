@@ -1,12 +1,15 @@
 #!/usr/bin/env python3
 import transformers
+from transformers import AutoTokenizer
 
 modelname = 'mosaicml/mpt-7b-instruct'
 print("Loading model %s" % modelname)
 
+device = "cpu"
 model = transformers.AutoModelForCausalLM.from_pretrained(
   modelname, trust_remote_code=True
 )
+tokenizer = AutoTokenizer.from_pretrained("EleutherAI/gpt-neox-20b")
 
 # Turn the text into tokens
 batch = tokenizer(
