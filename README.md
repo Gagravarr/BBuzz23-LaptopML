@@ -6,7 +6,7 @@ Berlin Buzzwords 2023, 06-19, 15:20–16:00 (Europe/Berlin), Palais Atelier
 
 https://program.berlinbuzzwords.de/berlin-buzzwords-2023/talk/JTD7GY/
 
-## Getting started with LLaMa
+## Getting started with LLaMA
 Follow the instructions on https://github.com/facebookresearch/llama
 for getting access from Facebook to the model files. May take a few days
 for Accademic email addresses, weeks/months for everyone else...
@@ -17,15 +17,15 @@ https://github.com/facebookresearch/llama#setup
 https://github.com/facebookresearch/llama#download
 https://github.com/facebookresearch/llama#inference
 
-The official LLaMa code is slow, so once you have your models downloaded,
-consider using LLaMa.cpp to run them
+The official LLaMA code is slow, so once you have your models downloaded,
+consider using LLaMA.cpp to run them
 
-## Getting started with LLaMa.cpp
+## Getting started with LLaMA.cpp
 Make sure you have a working C++ compiler!
 
 To build, follow https://github.com/ggerganov/llama.cpp#usage
 
-Then convert the Facebook-provided LLaMa models into the smaller
+Then convert the Facebook-provided LLaMA models into the smaller
 and quantised form by following
 https://github.com/ggerganov/llama.cpp#prepare-data--run
 
@@ -58,7 +58,7 @@ by default, you may want to symlink that elsewhere or play with the
 `TRANSFORMERS_CACHE` environment variable, if you like to keep all your 
 models on a different disk.
 
-### Hugging Face + LLaMa
+### Hugging Face + LLaMA
 Run `hf-llama.py` then wait a long time while it downloads!
 
 ### Hugging Face + MPT-7B-Instruct
