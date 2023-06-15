@@ -48,7 +48,7 @@ python3 -m venv .env
 source .env/bin/activate
 pip install datasets
 pip install torch transformers command 
-pip install sentencepiece einops
+pip install sentencepiece einops accelerate
 
 python -c "from datasets import load_dataset; print(load_dataset('squad', split='train')[0])"
 ```
