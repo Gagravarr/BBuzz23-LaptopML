@@ -69,3 +69,14 @@ See https://www.mosaicml.com/blog/mpt-7b
 > Databricks Dolly-15k and Anthropic’s Helpful and Harmless datasets.
 
 Run `hf-mpt-7b-instruct.py` then wait a long time while it downloads!
+
+## LLaMA.cpp and experimental Grammar extension
+
+https://github.com/grantslatton/llama.cpp
+patch...
+https://twitter.com/GrantSlatton/status/1657559506069463040
+
+python3 grammar.py --grammar example_grammar.txt > compiled_grammar
+./main -m ./models/7B/ggml-model-q4_0.bin -c 512 -b 1024 -n 256 --keep 48 --grammar compiled_grammar 
+
+...
