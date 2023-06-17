@@ -14,20 +14,26 @@ you try them youself.
 
 ### Set 1 - Berlin Buzzwords related questions
 
- * What is Berlin Buzzwords?
- * When was the first Berlin Buzzwords held? 
- * What was the venue for the first Berlin Buzzwords?
+ * [What is Berlin Buzzwords?](#what-is-berlin-buzzwords)
+ * [When was the first Berlin Buzzwords held?](#when-was-the-first-berlin-buzzwords-held)
+ * [What was the venue for the first Berlin Buzzwords?](#what-was-the-venue-for-the-first-berlin-buzzwords)
 
 ### Set 2 - Tweet generation, BBuzz follow-on
 Should be prompted after Set 1 has run
 
-* Write me a tweet advertising a talk on Laptop sized LLMs
+* [Write me a tweet advertising a talk on Laptop sized LLMs](#warm-start-write-me-a-tweet-advertising-a-talk-on-laptop-sized-llms)
 
 ### Set 3 - Tweet generation, cold start
 Should be run against a freshly started LLM / on a new session
 
  * Cold-start question: What is a large language model?
- * Write me a tweet advertising a talk on Laptop sized LLMs
+ * [Write me a tweet advertising a talk on Laptop sized LLMs](#cold-start-write-me-a-tweet-advertising-a-talk-on-laptop-sized-llms)
+
+### Grammar-Constrained LLaMA
+[Tourist advice, in JSON, from a grammar-constrained version of LLaMA](#tourist-advice)
+
+### Sentient Cheesecake teaching SQL
+How do the different LLMs do at [teaching SQL as a sentient cheesecake?](#sentient-cheesecake-and-sql)
 
 ## LLMs being tried
 
