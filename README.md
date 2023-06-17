@@ -72,11 +72,40 @@ Run `hf-mpt-7b-instruct.py` then wait a long time while it downloads!
 
 ## LLaMA.cpp and experimental Grammar extension
 
-https://github.com/grantslatton/llama.cpp
-patch...
 https://twitter.com/GrantSlatton/status/1657559506069463040
+https://github.com/grantslatton/llama.cpp
 
-python3 grammar.py --grammar example_grammar.txt > compiled_grammar
-./main -m ./models/7B/ggml-model-q4_0.bin -c 512 -b 1024 -n 256 --keep 48 --grammar compiled_grammar 
+On Ubuntu (plus some others), may get a compiler error from g++. If so,
+use https://github.com/Gagravarr/llama.cpp
 
-...
+```
+cat > example-grammar_revolution.txt << EOF
+country_adjective = "American" | "French" | "Iranian"
+digit = "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9"
+year = <digit> <digit> <digit> <digit>
+sentence = "The " <country_adjective> " revolution started in " <year> "."
+EOF
+
+python3 grammar.py --grammar example-grammar_revolution.txt > compiled_revolution
+./main -m ./models/7B/ggml-model-q4_0.bin -c 512 -b 1024 -n 256 --keep 48 --grammar compiled_revolution -p "America"
+./main -m ./models/7B/ggml-model-q4_0.bin -c 512 -b 1024 -n 256 --keep 48 --grammar compiled_revolution -p "France"
+./main -m ./models/7B/ggml-model-q4_0.bin -c 512 -b 1024 -n 256 --keep 48 --grammar compiled_revolution -p "Iran"
+```
+
+```
+cat > example-grammar_tourism-json.txt << EOF
+type CityData = {
+   "city_name": string,
+   "country": string,
+   "reasons_to_visit": {
+      "perecent_sunny_days": number,
+      "top_3_tourist_attractions": [string, string, string],
+   },
+};
+EOF
+
+python3 grammar.py --json grammar_json.txt > compiled_tourism
+./main -m ./models/7B/ggml-model-q4_0.bin -c 512 -b 1024 -n 256 --keep 48 --grammar compiled_tourism -p "New York"
+./main -m ./models/7B/ggml-model-q4_0.bin -c 512 -b 1024 -n 256 --keep 48 --grammar compiled_tourism -p "Sydney"
+./main -m ./models/7B/ggml-model-q4_0.bin -c 512 -b 1024 -n 256 --keep 48 --grammar compiled_tourism -p "Berlin"
+```
