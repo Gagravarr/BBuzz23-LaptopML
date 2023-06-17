@@ -96,6 +96,8 @@ Berlin Buzzwords was first held in 2009, in February.
 ChatGPT:
 The first Berlin Buzzwords conference was held in 2010.
 
+Actual:
+2010, June 7th and 8th
 
 ----------------------------------------------------------------------
 
@@ -120,6 +122,9 @@ The Berlin Buzzwords was held for the first time in 2016 in the FIT in Berlin. T
 
 ChatGPT:
 The first Berlin Buzzwords conference was held at the Kalkscheune, a historic event venue located in Berlin, Germany. The Kalkscheune is known for hosting a variety of cultural and social events, including conferences, exhibitions, and concerts. It provided an intimate and welcoming setting for the inaugural Berlin Buzzwords conference in 2010.
+
+Actual:
+Kosmos Berlin
 
 ----------------------------------------------------------------------
 
