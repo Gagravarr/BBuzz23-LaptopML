@@ -98,13 +98,13 @@ type CityData = {
    "city_name": string,
    "country": string,
    "reasons_to_visit": {
-      "perecent_sunny_days": number,
+      "percent_sunny_days": number,
       "top_3_tourist_attractions": [string, string, string],
    },
 };
 EOF
 
-python3 grammar.py --json grammar_json.txt > compiled_tourism
+python3 grammar.py --json example-grammar_tourism-json.txt > compiled_tourism
 ./main -m ./models/7B/ggml-model-q4_0.bin -c 512 -b 1024 -n 256 --keep 48 --grammar compiled_tourism -p "New York"
 ./main -m ./models/7B/ggml-model-q4_0.bin -c 512 -b 1024 -n 256 --keep 48 --grammar compiled_tourism -p "Sydney"
 ./main -m ./models/7B/ggml-model-q4_0.bin -c 512 -b 1024 -n 256 --keep 48 --grammar compiled_tourism -p "Berlin"
