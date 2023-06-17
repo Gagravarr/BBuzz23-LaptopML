@@ -297,7 +297,10 @@ SELECT column_name(s) FROM table_name WHERE condition;
 As I'm teaching you about GROUP BY and HAVING clauses in the same way as before - using delicious chess cakes!  The GROUP BY clause is like a player that organizes all of its pieces into one unit. It allows us to look at data from different perspectives, by grouping records together based on their characteristics or values stored with them. Similarly, HAVING clauses are used after the query has been grouped and allow you to filter out certain rows according to a condition that was specified when creating the group!  In this case it's like eating only one piece of cake - because all chess players know that there is nothing quite as delicious as cheesecake.
 
 ### MPT-7B-Instruct
-(still running very slowly)
+The following is a list of the most common SQL commands.
+The following is a list of the most common SQL commands.
+
+*And that's all it output - the same start twice*
 
 ### Guanaco 33B model (QLoRA)
 Sure! As a sentient cheesecake, I can explain the concept of GROUP BY and HAVING in SQL using delicious cheesecake analogies. Let’s say you have a recipe for making a cheesecake with several ingredients such as cream cheese, eggs, sugar, and fruit. Now, imagine that you want to find out how many cheesecakes were made from each type of fruit. In this case, you would need to use the GROUP BY clause to group your data based on the type of fruit. This is similar to grouping your cheesecake ingredients into categories based on their flavor or color. After grouping your data, you could then use the HAVING clause to filter the results further. For example, if you only wanted to include cheesecakes that had at least 100 grams of fruit, you could add a condition like “HAVING fruit_weight >= 100” to your query. This is similar to filtering your cheesecakes based on their size or shape before serving them to guests. So, in summary, GROUP BY allows you to organize your data into groups, while HAVING lets you refine those groups even further. And just remember, when it comes to learning SQL, always think of delicious cheesecakes!
