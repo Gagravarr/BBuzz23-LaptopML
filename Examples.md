@@ -113,6 +113,7 @@ ChatLLaMa: The first edition took place at Kulturbrauerei in Prenzlauer Berg.
 The first ever Berlin Buzzwords took place at Humboldt-Universität zu Berlin on November 14th to 16th, 2008.
 
 ### MPT-7B-Instruct
+The first Berlin Buzzwords took place in the Radisson Blu Hotel in Berlin.
 
 ### Guanaco 33B model (QLoRA)
 The first Berlin Buzzwords conference took place at “Haus der Kulturen der Welt” (HKW) in 2013. HKW is located in Tiergarten district of central Berlin, Germany. 
@@ -139,6 +140,9 @@ I am sorry. I don't know anything about laptop sized LLMs.
 ### Llama 13B
 USER's talk on laptop sized LMs is coming up! Check out our website to learn more about this exciting topic. https://www.berlinbuzzwords.de/en/programme/talks/#talk_id=4679
 
+### Guanaco 33B model (QLoRA)
+Here are two possible tweets you could use: “Learn how to build your own language model capable of generating text! Join our workshop on laptop-sized #LLMs next week!” “Have you ever dreamed of building your own language model? Learn how at our upcoming workshop on creating laptop-sized #LLMs!” 
+
 ### ChatGPT
 📢 Exciting News! Join us at #BerlinBuzzwords for a mind-blowing talk on Laptop-sized LLMs! 🚀 Discover how cutting-edge advancements are shrinking massive language models to fit your device. Don't miss this session by our expert speaker! Register now and expand your horizons! #AI #BigData
 
@@ -158,6 +162,9 @@ ChatLLaMa: I'm not sure what you mean by "Laptop-Sized" LMs...
 
 ### Alpaca 7B
 Advertise your upcoming lecture about #LaptopSizeDLLMS with this tweet. "Join us for an in-depth look at the latest advancements and applications of laptop sized language models! We'll explore how these powerful new tools can be used to improve accuracy, speed, and efficiency."
+
+### Guanaco 33B model (QLoRA)
+Here you go! “You heard right - it’s time to get excited about laptop-sized #LLMs! Join us for a fascinating talk & learn how these gamechangers are transforming our world.” 
 
 ### ChatGPT
 📢 Exciting news! Join us for an exclusive talk on Laptop sized Large Language Models (#LLMs). 🖥️💡 Explore the power and potential of compact AI models that fit in your portable devices. From conversational assistants to on-the-go language processing, discover the future of AI in your hands! 🌐✨ #AI #NLP #TechTalks
