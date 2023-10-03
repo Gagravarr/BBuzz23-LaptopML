@@ -67,6 +67,9 @@ Berlin Buzzwords is an annual tech conference that focuses on distributed system
 ### Dolly-2.0 (Pythia)
 Berlin Buzzwords is a viral marketing term used in the Berlin tech scene. It consists of a set of buzzwords that are commonly used in the tech scene of Berlin and are associated with the area. Buzzwords can be used in many situations and serve as a way to communicate in Berlin's tech scene.
 
+### LLama-2 7B
+Berlin Buzzwords is a conference for people who work with technology and data. It's an opportunity to learn about the latest trends in software development, data science, machine learning, artificial intelligence, and more.
+
 ### ChatGPT
 Berlin Buzzwords is an annual conference that focuses on open-source software projects in the fields of big data, storage, and search. The conference provides a platform for developers, researchers, and industry professionals to come together and exchange ideas, knowledge, and experiences in these areas.
 
@@ -99,6 +102,9 @@ The first Berlin Buzzwords conference took place in 2013. It is an annual event 
 ### Dolly-2.0 (Pythia)
 Berlin Buzzwords was first held in 2009, in February.
 
+### LLama-2 7B
+The first Berlin Buzzwords took place on March 20th, 2015 in Berlin, Germany.
+
 ### ChatGPT:
 The first Berlin Buzzwords conference was held in 2010.
 
@@ -126,6 +132,9 @@ The first Berlin Buzzwords conference took place at “Haus der Kulturen der Wel
 
 ### Dolly-2.0 (Pythia)
 The Berlin Buzzwords was held for the first time in 2016 in the FIT in Berlin. The event was founded by Tristan Tzvetkov and Steffen Braun. The Buzzwords are Berlin's biggest and most important tech event, which attracts more than 400 people every year and which is considered to be a must-attend for everyone in the Berlin tech scene.
+
+### LLama-2 7B
+The venue for the first Berlin Buzzwords was the Humboldt-Universität zu Berlin.
 
 ### ChatGPT
 The first Berlin Buzzwords conference was held at the Kalkscheune, a historic event venue located in Berlin, Germany. The Kalkscheune is known for hosting a variety of cultural and social events, including conferences, exhibitions, and concerts. It provided an intimate and welcoming setting for the inaugural Berlin Buzzwords conference in 2010.
@@ -159,6 +168,9 @@ If you're not able to attend, I'll be live-tweeting from the talk, and you can f
 ### Guanaco 33B model (QLoRA)
 Here are two possible tweets you could use: “Learn how to build your own language model capable of generating text! Join our workshop on laptop-sized #LLMs next week!” “Have you ever dreamed of building your own language model? Learn how at our upcoming workshop on creating laptop-sized #LLMs!” 
 
+### LLama-2 7B
+@berlinbuzzwords I'm excited to announce my talk "Laptop sized LLMs" at #BerlinBuzzwords. Come join us!
+
 ### ChatGPT
 📢 Exciting News! Join us at #BerlinBuzzwords for a mind-blowing talk on Laptop-sized LLMs! 🚀 Discover how cutting-edge advancements are shrinking massive language models to fit your device. Don't miss this session by our expert speaker! Register now and expand your horizons! #AI #BigData
 
@@ -188,6 +200,11 @@ If you're not able to attend, I'll be live-tweeting from the talk, and you can f
 
 ### Guanaco 33B model (QLoRA)
 Here you go! “You heard right - it’s time to get excited about laptop-sized #LLMs! Join us for a fascinating talk & learn how these gamechangers are transforming our world.” 
+
+### LLama-2 7B
+@LaptopLLMs
+
+I'm giving a talk on Laptop sized LLMs at the next @TensorFlow meetup. Come along and learn how to train your own model in just a few clicks! #LaptopsAreTheFuture 💻
 
 ### ChatGPT
 📢 Exciting news! Join us for an exclusive talk on Laptop sized Large Language Models (#LLMs). 🖥️💡 Explore the power and potential of compact AI models that fit in your portable devices. From conversational assistants to on-the-go language processing, discover the future of AI in your hands! 🌐✨ #AI #NLP #TechTalks
